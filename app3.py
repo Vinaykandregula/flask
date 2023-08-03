@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return render_template('webview.html')
+    return render_template('webview2.html')
 
 @app.route("/success")
 def success():
